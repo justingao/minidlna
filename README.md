@@ -24,12 +24,13 @@ More information on MiniUPnPd can be found at http://miniupnp.free.fr.
 - libsqlite3
 - libavformat (the ffmpeg libraries)
 
-> NOTE: 
+> *NOTE* 
 On Reapbian, you can prepare the prerequisites via `apt-get build-dep minidlna`, then the above develop packages will be installed automatically.
 
 
 ## Build
-See the INSTALL file for instructions on compiling, installing, and configuring minidlna.
+1. Run the shell script `./autogen.sh` to generate the INSTALL document and prepare the workbench.
+2. See the INSTALL file for instructions on compiling, installing, and configuring minidlna.
 
 
 
